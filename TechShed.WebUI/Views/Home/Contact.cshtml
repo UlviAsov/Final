@@ -1,0 +1,103 @@
+﻿@model ContactPost
+<section id="getInTouch">
+    <h1>Get in Touch</h1>
+    <hr style="margin: 100px ;">
+    <div id="getInTouch-container">
+        <div id="getInTouch-container-leftside">
+            <div id="getInTouch-container-leftside-up">
+                <h2>Opening Hours</h2>
+                <ul>
+                    <li>Mon - Fri: 8am - 8pm</li>
+                    <li>Saturday: 9am - 7pm</li>
+                    <li>Sunday: 9am - 8pm</li>
+                </ul>
+            </div>
+
+            <div id="getInTouch-container-leftside-up-down">
+                <h2>Store Location</h2>
+                <ul>
+                    <li>500 Terry Francois Street</li>
+                    <li>San Francisco, CA 94158</li>
+                    <li>info@mysite.com</li>
+                    <li>123-456-7890</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div id="getInTouch-container-rightside">
+            <h2>We're here to help!</h2>
+            <p>Fill out the form with any query on your mind and we'll get back to you as soon as possible</p>
+
+            <form id="contactForm" method="post">
+                <div id="form-container">
+                    <div id="form-container-leftside">
+                        <label asp-for="FullName">Name</label><br><br>
+                        <input asp-for="FullName"  id="firstName">
+                        <span asp-validation-for="FullName"></span><br><br>
+                        <label asp-for="Email">Email *</label><br><br>
+                        <input asp-for="Email"  id="email">
+                        <span asp-validation-for="Email"></span>
+                    </div>
+
+                </div>
+                <div id="messagebox">
+                    <label asp-for="Message">Message</label><br><br>
+                    <textarea  id="message" cols="61" rows="2" asp-for="Message"></textarea>
+                    <span asp-validation-for="Message"></span>
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="newsLetter">
+    <h2>Newsletter</h2>
+    <p>Sign up to receive updates on new arrivals and special offers</p>
+    <label for="yourEmail">Email*</label>
+    <div>
+        <input placeholder="Your Email Here" name="yourEmail" id="yourEmail" type="text">
+        <button>Subscribe</button>
+    </div>
+</section>
+
+@section js{
+    <script src="~/admin/assets/libs/toastr.js/toastr.min.js"></script>
+    <!-- custom js -->
+
+   
+    <script>
+            $(document).ready(function () {
+                $('#contactForm').submit(function (e) {
+                    e.preventDefault();
+
+                    let formData = new FormData(e.currentTarget);
+
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("Contact")",
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        success: function (response) {
+                            if (response.error == true) {
+                               toastr.error(response.message, 'Error!!!');
+                                return;
+                            }
+                               toastr.success(response.message, 'Success!!!');
+
+                            e.currentTarget.reset();
+                        }
+
+                    });
+                });
+             });
+    </script>
+}
+
+@section css{
+    <link rel="stylesheet" type="text/css" href="~/admin/assets/libs/toastr.js/toastr.min.css">
+
+}

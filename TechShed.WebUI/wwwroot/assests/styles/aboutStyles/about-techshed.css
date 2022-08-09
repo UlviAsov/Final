@@ -1,0 +1,31 @@
+#about-techshed{
+    margin-top: 80px;
+}
+#about-techshed-container{
+    display: flex;
+    justify-content: space-around;
+}
+#about-techshed h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+#about-techshed #about-techshed-leftside{
+    background-image: url("https://static.wixstatic.com/media/c837a6_57c256d2c7474590a3f295bad576b0a1~mv2.jpg/v1/fill/w_825,h_843,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_57c256d2c7474590a3f295bad576b0a1~mv2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+#about-techshed #about-techshed-rightside{
+    font-size: 17px;
+    font-weight: 200;
+    width: 500px;
+    margin-top: 120px;
+}

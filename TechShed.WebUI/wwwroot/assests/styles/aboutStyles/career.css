@@ -1,0 +1,74 @@
+#careers{
+    margin-bottom: 120px;
+}
+#careers h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+#careers p{
+    font-weight: 200;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#careers form{
+    margin-top: 100px;
+}
+#careers form input{
+    font-weight: 200;
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline:0;
+    width: 415px;
+    height: 29px;
+}
+#careers form label{
+    font-size: 17px;
+    font-weight: 200;
+}
+#careers form #form-container select{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline:0;
+    width: 415px;
+    height: 29px;
+}
+#careers form #form-container select{
+    font-size: 14px;
+    font-weight: 200;
+}
+#careers form #form-container select option{
+    font-size: 14px;
+    font-weight: 200;
+}
+#careers form #form-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+#careers form .linkResume{
+    margin-left: 335px;
+    margin-top: 20px;
+}
+#careers form .linkResume input{
+    width: 555px;
+}
+#careers form .linkResume button{
+    border: none;
+    font-size: 17px;
+    background-color: #751ddd;
+    color: white;
+    font-weight: 200;
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+    margin-left: 70px;
+}
+#careers form .linkResume button:hover{
+    background-color: black;
+    transition: .5s;
+}

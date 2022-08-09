@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.blog{
+    margin-top:100px;
+}
+.blog .blog-container .blogs {
+    width: 380px;
+    height: 280px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+
+    .blog .blog-container .blogs .blogs-content {
+        margin-top: 170px;
+        margin-left: 30px;
+        position: absolute;
+        z-index: 999;
+    }
+
+        .blog .blog-container .blogs .blogs-content p {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .blog .blog-container .blogs .blogs-content span a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .blog .blog-container .blogs .blogs-content p .readMore {
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+            .blog .blog-container .blogs .blogs-content p .readMore:hover {
+                color: #2266CC;
+            }
+
+.blog .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+
+.blog .blog-container .blogs {
+        margin-bottom: 40px;
+}
+
+.blog .blog-container .blogs:hover .blogs-content {
+            transition: 1s;
+            margin-top: 120px;
+}
+
+.blog .blog-container .blogs .hide {
+            display: none;
+}
+
+        .blog .blog-container .blogs:hover .hide {
+            display: block;
+            color: red;
+        }
+
+    .blog .blog-container .blogs {
+        position: relative;
+    }
+
+        .blog .blog-container .blogs img {
+            position: absolute;
+            width: 380px;
+            height: 280px;
+            z-index: 0;
+        }

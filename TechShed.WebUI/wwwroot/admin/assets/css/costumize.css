@@ -1,0 +1,76 @@
+﻿.table-operations{
+    text-align: right;
+    min-width: 34px !important;
+    max-width: 34px !important;
+}
+
+.table-operations i {
+    margin: 0;
+}
+
+.table td .image{
+    width:100px;
+    object-fit:cover;
+}
+
+.table > thead > tr > th:not(.table-operations) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table td.cell-sm {
+    max-width:100px;
+}
+
+.table td.cell-sm {
+    max-width: 250px;
+}
+
+.table td.cell-sm {
+    vertical-align: middle;
+}
+
+.ck-editor{
+    min-height:250px;
+    width:250px;
+}
+
+.photo-viewer {
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqF8D4KXD4qKL_wrHE7GyVvfejF7HHLtXgg&usqp=CAU);
+    cursor: pointer;
+}
+
+.photo-viewer + input[type="file"]{
+    display:none;
+}
+
+
+p.form-control{
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    td .ellipse{
+        max-width:50px;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+}

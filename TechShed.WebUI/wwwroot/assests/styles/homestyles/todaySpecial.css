@@ -1,0 +1,33 @@
+#todaySpecial{
+    margin-bottom: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid rgb(231, 226, 226);
+}
+#todaySpecial-rightside{
+    background-image: url("https://static.wixstatic.com/media/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png/v1/fill/w_1799,h_750,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_ecf32c7284d4430582fcc90f60a1b4e6~mv2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
+    width: 1000px;
+    height: 550px;
+}
+#todaySpecial #todaySpecial-leftside{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#todaySpecial #todaySpecial-leftside a{
+   font-size: 18px;
+   font-weight: 200;
+   text-decoration: none;
+   color: white;
+   background-color: #751fff;
+   border-radius: 25px;
+   padding: 10px 60px;
+}
+#todaySpecial #todaySpecial-leftside a:hover{
+    transition: .5s;
+    background-color: black;
+}

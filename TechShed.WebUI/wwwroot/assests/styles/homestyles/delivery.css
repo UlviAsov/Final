@@ -1,0 +1,11 @@
+#delivery div span{
+    font-size: 17px;
+}
+#delivery div{
+    margin-left: 80px;
+}
+#delivery{
+    display: flex;
+    margin-top: 80px;
+
+}

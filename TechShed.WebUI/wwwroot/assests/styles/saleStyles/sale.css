@@ -1,0 +1,112 @@
+#sale{
+    margin-bottom: 100px;
+}
+#saleContainer{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#sale-products{
+    margin-left: 30px;
+    margin-top: 46px;
+}
+#sale hr{
+    width: 200px;
+}
+#sale h1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+#sale .filterBy h2{
+    font-size: 26px;
+    font-weight: 200;
+}
+#sale .filterBy span{
+    font-weight: 200;
+    font-size: 16px;
+}
+#sale .filterBy ul{
+    margin-top: 20px;
+    padding-inline-start: 0;
+}
+#sale .filterBy ul li{
+    list-style: none;
+}
+#sale .filterBy ul li button{
+    font-size: 14px;
+    font-weight: 200;
+    border: none;
+    background-color: white;
+}
+#sale #sale-products .products{
+    border: 1px solid rgb(225, 225, 225);
+    padding-bottom: 20px;
+}
+#sale #sale-products .products p{
+    font-size: 17px;
+    font-weight: 200;
+    color: black;
+    padding-left: 20px;
+}
+#sale #sale-products .sale span:nth-child(1){
+    background-color: #d72d2d;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px 15px;
+}
+#sale #sale-products .products span{
+    font-size: 20px;
+    font-weight: 200;
+    color: #751fff;
+    padding-left: 20px;
+}
+#sale #sale-products .products a{
+    text-decoration: none;
+}
+#sale #sale-products .products a{
+    text-decoration: none;
+}
+#sale #sale-products .products img{
+    width: 300px;
+    height: 300px;
+}
+#sale #sale-products #sale-products-row1{
+    display: flex;
+}
+#sale #sale-products #sale-products-row2{
+    display: flex;
+}
+#sale #sale-products #sale-products-row3{
+    display: flex;
+}
+#sale #sale-products #sale-products-row4{
+    display: flex;
+}
+#sale #sale-products #sale-products-row5{
+    display: flex;
+}
+.loadMore{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.loadMore button{
+    width: 245px;
+    height: 43px;
+    border: none;
+    background-color: #751fff;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+.loadMore button:hover{
+   background-color: black;
+}
+
+

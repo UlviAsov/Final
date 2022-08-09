@@ -1,0 +1,7 @@
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.AssemblyInfo.cs
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.RazorAssemblyInfo.cache
+C:\Users\ACER\Desktop\TechShed Solution\TechShed.WebUI\obj\Release\net5.0\TechShed.WebUI.RazorAssemblyInfo.cs

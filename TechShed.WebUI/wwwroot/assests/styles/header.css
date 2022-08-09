@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    height: 10000px;
+}
+header nav #nav-up{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+header nav #nav-up #nav-up-leftside img{
+    width:30px;
+    position: relative;
+    top: 5px;
+    margin-left: 50px;
+}
+header nav #nav-up #nav-up-leftside span{
+    position: relative;
+    top: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 15px;
+}
+header nav #nav-up #nav-up-rightside ul li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+header nav #nav-up #nav-up-rightside ul li{
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+header nav #nav-up #nav-up-rightside ul{
+    padding-inline-start: 0;
+}
+header nav #nav-secondary{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+header nav #nav-secondary #nav-secondary-leftside h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+header nav #nav-secondary #nav-secondary-leftside input{
+    padding: 15px 150px 15px 10px;
+    font-size: 14px;
+    font-weight: 200;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    outline: none;
+    margin-left: 50px;
+}
+header nav #nav-secondary #nav-secondary-leftside{
+   display: flex; 
+}
+header nav #nav-secondary #nav-secondary-leftside button{
+    background-color:#751FFF;
+    color: white;
+    border: none;
+    padding: 13.5px 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    margin-left: -5px;
+}
+header nav #nav-secondary #nav-secondary-leftside button:hover{
+    background-color: black;
+}
+header nav #nav-secondary #nav-secondary-rightside{
+    position: relative;
+    top: 15px;
+}
+header nav #nav-secondary #nav-secondary-rightside ul li{
+   list-style: none;
+   padding-left: 30px;
+}
+header nav #nav-secondary #nav-secondary-rightside ul{
+    padding-inline-start: 0;
+    display: flex;
+    margin-right: 50px;
+}
+header nav #nav-secondary #nav-secondary-rightside ul li a{
+    color: black;
+    text-decoration: none;
+}
+header nav #nav-secondary #nav-secondary-rightside ul li a i{
+    font-size: 25px;
+}
+header nav #nav-secondary #nav-secondary-rightside ul li a span{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.offcanvas-header{
+    background-color: black;
+    color: wheat;
+}
+.btn-close{
+    background-color: gray;
+}
+.offcanvas-title{
+    margin: auto;
+    font-size: 24px;
+    font-weight: 400;
+}
+.offcanvas-body{
+    margin: auto;
+    font-size: 18px;
+}
+.btn{
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+    background-color: #751FFF;
+}
+.btn span{
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+#nav-down{
+    background-color: #333;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-top: 17px;
+    padding-bottom: 1px;
+}
+#nav-down ul{
+    padding-inline-start: 0;
+}
+#nav-down li{
+    list-style: none;
+}
+#nav-down a{
+    text-decoration: none;
+}
+#nav-down .shop-all a{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 17px 20px;
+}
+#nav-down .shop-all a:hover{
+    background-color: black;
+}
+#nav-down .blogs a{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 17px 20px;
+}
+#nav-down .blogs a:hover{
+    background-color: black;
+}
+#nav-down .categories .categories-menu-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 17px 20px;
+}
+#nav-down .categories .categories-menu-title:hover{
+    background-color: black;
+}
+
+#nav-down .categories .categories-container .category .parent-category{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav-down .categories .categories-container .category .child-category{
+    color: black;
+    font-size: 18px;
+   
+}
+#nav-down .categories .categories-container .category .child-category:hover{
+    color: #751FFF;
+}
+#nav-down .categories{
+    position: relative;
+    z-index: 999;
+}
+#nav-down .categories .categories-container{
+    position:absolute;
+    display: none;
+    background-color: rgb(241, 241, 241);
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 285px;
+    margin-left: -190px;
+}
+#nav-down .categories:hover .categories-container{
+    display: flex;
+}

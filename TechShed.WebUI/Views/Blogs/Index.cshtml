@@ -1,0 +1,27 @@
+﻿@model IEnumerable<BlogPost>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="blog">
+    <div class="blog-container">
+
+        @foreach (var item in Model)
+        {
+        <div class="blogs">
+            <a asp-action="details" asp-route-id="@item.Id">
+                <img src="~/uploads/images/@item.ImagePath" alt="">
+            </a>
+            <div class="blogs-content">
+                <span style="padding-left: 10px;border-right:1px solid white;"><a href="#">@item.CreatedDate.ToString("MMM d, yyyy")</a></span>
+                <span style="margin-left: 10px;"><a href="#">2 comments</a></span>
+                <p>Explore Fashion Trending For <br> Women In Autumn 2020</p>
+                <p class="hide"><a class="readMore" asp-action="details" asp-route-id="@item.Id">READ MORE</a></p>
+            </div>
+        </div>
+        }
+
+
+    </div>
+</div>
+

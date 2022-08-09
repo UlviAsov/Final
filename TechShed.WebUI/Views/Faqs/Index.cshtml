@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Faq>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section id="techShedHelpCenter">
+    <h1>TechShed Help Center</h1>
+    <h2>Frequently asked questions</h2>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" placeholder="Looking for something?">
+    <div id="faq">
+
+        @foreach (var item in Model)
+        {
+            <button class="acc" id="@item.Id">@item.Question</button>
+            <div class="acc-body">
+                @Html.Raw(item.Answer)
+            </div>
+            <br>
+        }
+
+
+    </div>
+</section>
+
